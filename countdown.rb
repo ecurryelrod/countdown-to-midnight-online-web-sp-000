@@ -10,7 +10,7 @@ def countdown(number)
 end
 
 def countdown_with_sleep(number)
-  if countdown(number) == sleep(5)
+  if countdown(number) == sleep(10)
     true
   end
 end
